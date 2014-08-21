@@ -10,8 +10,8 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        $companyModel = ModelFactory::loadModel('user');
-        $data = $companyModel->getAllUsers();
+//        $companyModel = ModelFactory::loadModel('user');
+//        $data = $companyModel->getAllUsers();
 //        print_r($data);die;
     }
 
