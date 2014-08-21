@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Responsible for the citation management content on the site
+ *
  */
 class Vendors_IndexController extends Zend_Controller_Action
 {
