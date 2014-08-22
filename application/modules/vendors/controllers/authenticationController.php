@@ -17,7 +17,7 @@ class Vendors_authenticationController extends Zend_Controller_Action
                 $auth_user = new Zend_Session_Namespace('user_info');
                 $auth_user->userId = $user->idusers;
                 $auth_user->userEmail = $email;
-                $auth_user->setExpirationSeconds(300);
+                $auth_user->setExpirationSeconds(600);
                 $this->_redirect('/vendors/index/index/vendorid/'.$user->idusers);
             }
         }

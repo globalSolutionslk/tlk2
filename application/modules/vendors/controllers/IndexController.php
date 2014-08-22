@@ -15,7 +15,7 @@ class Vendors_IndexController extends Vendors_vendorController
 
         if($auth_user->userId!=$vid)
         {
-            Zend_Session::namespaceUnset('user_info');
+//            Zend_Session::namespaceUnset('user_info');
             $this->_redirect('/vendors/authentication/');
         }
 
